@@ -25,7 +25,6 @@ def main():
     meta = load_meta(META_PATH)
     print(f"Ready. Chunks in index: {index.ntotal}", flush=True)
 
-    # Если stdin не интерактивный — выведем понятное сообщение
     if not sys.stdin.isatty():
         print("stdin is not interactive (likely IDE/run button). Run this script in a Terminal.", flush=True)
         return
