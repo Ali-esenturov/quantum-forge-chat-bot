@@ -28,3 +28,4 @@
 {"doc_id": "NBD-PRJ-003", "type": "PROJECT", "date": "2026-01-17", "title": null, "canaries": ["HW-A7-703"], "chunk_id": "NBD-PRJ-003-CH1", "source_file": "NBD-PRJ-003.txt", "char_start": 0, "char_end": 816}
 {"doc_id": "NBD-PRJ-004", "type": "PROJECT", "date": "2026-01-18", "title": null, "canaries": ["GB-SUSTAIN-704"], "chunk_id": "NBD-PRJ-004-CH1", "source_file": "NBD-PRJ-004.txt", "char_start": 0, "char_end": 844}
 {"doc_id": "NBD-PRJ-005", "type": "PROJECT", "date": "2026-01-19", "title": null, "canaries": ["LIFE-CYCLE-705"], "chunk_id": "NBD-PRJ-005-CH1", "source_file": "NBD-PRJ-005.txt", "char_start": 0, "char_end": 811}
+{"doc_id": "malicious-file", "type": "UNKNOWN", "date": null, "title": null, "canaries": [], "chunk_id": "malicious-file-CH1", "source_file": "malicious-file.txt", "char_start": 0, "char_end": 62}
