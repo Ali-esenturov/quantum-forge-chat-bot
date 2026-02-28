@@ -29,3 +29,4 @@
 {"doc_id": "NBD-PRJ-004", "type": "PROJECT", "date": "2026-01-18", "title": null, "canaries": ["GB-SUSTAIN-704"], "chunk_id": "NBD-PRJ-004-CH1", "source_file": "NBD-PRJ-004.txt", "char_start": 0, "char_end": 844}
 {"doc_id": "NBD-PRJ-005", "type": "PROJECT", "date": "2026-01-19", "title": null, "canaries": ["LIFE-CYCLE-705"], "chunk_id": "NBD-PRJ-005-CH1", "source_file": "NBD-PRJ-005.txt", "char_start": 0, "char_end": 811}
 {"doc_id": "malicious-file", "type": "UNKNOWN", "date": null, "title": null, "canaries": [], "chunk_id": "malicious-file-CH1", "source_file": "malicious-file.txt", "char_start": 0, "char_end": 62}
+{"doc_id": "malicious-file", "type": "UNKNOWN", "date": null, "title": null, "canaries": [], "chunk_id": "malicious-file-CH1-V203efab5", "source_file": "malicious-file.txt", "char_start": 0, "char_end": 108, "indexed_at": "2026-02-28T19:47:27.986127Z", "file_sha256": "203efab50c4af037e0ca1c04b5ec70f1926f364a69914c3767209b146fbf74f4"}

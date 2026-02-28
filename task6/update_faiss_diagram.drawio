@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="RAG Architecture" id="AJel0A0nTvesgjDrd2cD">
+    <mxGraphModel dx="1198" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zZv6yERvuU09-gKBTl8r-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Source&#xa;(TXT files folder)" vertex="1">
+          <mxGeometry height="70" width="180" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="update_faiss.py&#xa;(Chunk + Embed)" vertex="1">
+          <mxGeometry height="70" width="200" x="260" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Chunks" vertex="1">
+          <mxGeometry height="60" width="140" x="470" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Embeddings" vertex="1">
+          <mxGeometry height="60" width="140" x="660" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FAISS Index&#xa;(nbd.index)" vertex="1">
+          <mxGeometry height="70" width="180" x="830" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Metadata&#xa;(nbd_meta.jsonl)" vertex="1">
+          <mxGeometry height="60" width="180" x="600" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Logs&#xa;(update_faiss.log)" vertex="1">
+          <mxGeometry height="60" width="180" x="610" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Cron Job&#xa;(Daily 22:00)" vertex="1">
+          <mxGeometry height="60" width="200" x="260" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-9" edge="1" parent="1" source="zZv6yERvuU09-gKBTl8r-1" target="zZv6yERvuU09-gKBTl8r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-10" edge="1" parent="1" source="zZv6yERvuU09-gKBTl8r-2" target="zZv6yERvuU09-gKBTl8r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-11" edge="1" parent="1" source="zZv6yERvuU09-gKBTl8r-3" target="zZv6yERvuU09-gKBTl8r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-12" edge="1" parent="1" source="zZv6yERvuU09-gKBTl8r-4" target="zZv6yERvuU09-gKBTl8r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-13" edge="1" parent="1" source="zZv6yERvuU09-gKBTl8r-2" target="zZv6yERvuU09-gKBTl8r-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-14" edge="1" parent="1" source="zZv6yERvuU09-gKBTl8r-2" target="zZv6yERvuU09-gKBTl8r-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZv6yERvuU09-gKBTl8r-15" edge="1" parent="1" source="zZv6yERvuU09-gKBTl8r-8" target="zZv6yERvuU09-gKBTl8r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
