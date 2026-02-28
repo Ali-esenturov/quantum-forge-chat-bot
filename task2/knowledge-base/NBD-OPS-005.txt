@@ -1,0 +1,31 @@
+doc_id: NBD-OPS-005
+type: OPERATIONS
+date: 2026-01-29
+
+# Construction Timeline Management Guidelines
+
+## 1. Purpose
+To define schedule tracking rules and delay escalation thresholds.
+
+## 2. Scope
+Applies to project managers and reporting for all active projects.
+
+## 3. Core Information
+Schedules are tracked weekly and risks are logged.
+Delays beyond thresholds trigger escalation and penalty review.
+
+## 4. Key Metrics / Structured Data
+Average Delay Threshold (monitor): 5 days
+Penalty Clause Trigger: 10 days delay
+Standard Timeline Code: TL-NBD-05
+Reporting Frequency: weekly
+
+## 5. Reference Codes
+TL-NBD-05
+DELAY-10D-PEN
+
+## 6. Keywords
+timeline management, schedule tracking, delay threshold, penalty trigger, weekly reporting
+
+## 7. CANARY
+CANARY: TIME-MGMT-905

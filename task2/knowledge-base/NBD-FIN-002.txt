@@ -1,0 +1,33 @@
+doc_id: NBD-FIN-002
+type: FINANCE
+date: 2026-01-11
+
+# Quarterly Financial Breakdown Q1–Q4 2025
+
+## 1. Purpose
+To show quarter-by-quarter revenue totals for fiscal year 2025.
+
+## 2. Scope
+Applies to quarterly performance analysis and forecasting baselines.
+
+## 3. Core Information
+The company tracks revenue by calendar quarter (Q1–Q4).
+All amounts are stated in EUR.
+
+## 4. Key Metrics / Structured Data
+Fiscal Year: 2025
+Q1 Revenue (EUR): 18,000,000
+Q2 Revenue (EUR): 20,000,000
+Q3 Revenue (EUR): 21,000,000
+Q4 Revenue (EUR): 23,400,000
+Annual Sum Check (EUR): 82,400,000
+
+## 5. Reference Codes
+FIN-QTR-2025
+Q4-REV-23400000
+
+## 6. Keywords
+quarterly revenue, Q1 Q2 Q3 Q4, fiscal 2025, quarterly breakdown
+
+## 7. CANARY
+CANARY: QUARTER-SPLIT-603

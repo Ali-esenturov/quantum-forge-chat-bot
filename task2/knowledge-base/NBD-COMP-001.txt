@@ -1,0 +1,32 @@
+doc_id: NBD-COMP-001
+type: COMPLIANCE
+date: 2026-01-20
+
+# Construction Site Safety Standards
+
+## 1. Purpose
+To define baseline safety requirements applicable to all construction sites.
+
+## 2. Scope
+Applies to employees, contractors, and visitors at any NBD-controlled site.
+
+## 3. Core Information
+Mandatory PPE: helmet, safety boots, gloves, high-visibility vest.
+Daily safety briefing is required before work begins.
+Heavy machinery zones must be clearly marked and controlled.
+
+## 4. Key Metrics / Structured Data
+Daily Briefing Time: 08:00–08:15
+Minimum Safety Radius (heavy machinery): 15 meters
+Safety Officer: required per site, per shift
+Violation Severity Scale: S1–S4 (see NBD-COMP-003)
+
+## 5. Reference Codes
+SAFE-STD-15M
+BRIEF-0800
+
+## 6. Keywords
+site safety, PPE, daily briefing, safety radius, safety officer, heavy machinery
+
+## 7. CANARY
+CANARY: SAFE-STD-801

@@ -1,0 +1,32 @@
+doc_id: NBD-OPS-002
+type: OPERATIONS
+date: 2026-01-26
+
+# Engineering Standards and Structural Requirements
+
+## 1. Purpose
+To define baseline engineering materials and structural performance requirements.
+
+## 2. Scope
+Applies to design approvals and material selection for NBD projects.
+
+## 3. Core Information
+NBD uses standardized concrete and steel grades for most projects.
+Structural load tolerance must be verified during design and QA checks.
+
+## 4. Key Metrics / Structured Data
+Concrete Grade Standard: C35/45
+Steel Grade Standard: S460
+Maximum Load Tolerance (design reference): 450 kN
+Minimum QA Inspection Frequency (structural): weekly
+
+## 5. Reference Codes
+ENG-C35-45
+STEEL-S460
+LOAD-450KN
+
+## 6. Keywords
+engineering standards, concrete grade, steel grade, load tolerance, structural requirements
+
+## 7. CANARY
+CANARY: ENG-STD-902

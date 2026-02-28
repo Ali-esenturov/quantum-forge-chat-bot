@@ -1,0 +1,35 @@
+doc_id: NBD-CORP-005
+type: CORPORATE
+date: 2026-01-09
+
+# Corporate Mission, Vision, and Strategic Goals
+
+## 1. Purpose
+To state the mission, vision, and measurable strategic objectives of NBD.
+
+## 2. Scope
+Applies to strategic planning, annual objectives, and executive reporting.
+
+## 3. Core Information
+Mission: deliver reliable, safe, and sustainable construction outcomes that improve urban living.
+Vision: become a top-5 mid-size construction provider in the EU by 2030.
+
+Strategic goals:
+- Improve safety performance year over year
+- Standardize engineering and QA across all sites
+- Expand infrastructure portfolio with predictable margins
+
+## 4. Key Metrics / Structured Data
+Target Revenue (2030): €150,000,000
+Target Safety Incident Reduction: 20% by 2028
+Strategic Horizon: 2026–2030
+
+## 5. Reference Codes
+STRAT-2030-150M
+SAFE-RED-20P
+
+## 6. Keywords
+mission, vision, strategic goals, target revenue, safety improvement, growth plan
+
+## 7. CANARY
+CANARY: STRATEGY-LINE-505

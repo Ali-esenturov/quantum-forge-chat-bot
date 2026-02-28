@@ -1,0 +1,33 @@
+doc_id: NBD-PRJ-004
+type: PROJECT
+date: 2026-01-18
+
+# GreenBridge Sustainable Housing Initiative
+
+## 1. Purpose
+To describe the sustainability targets and delivery parameters for GreenBridge.
+
+## 2. Scope
+Applies to all GreenBridge design, procurement, and construction decisions.
+
+## 3. Core Information
+Project Name: GreenBridge Housing Initiative
+Project Type: Sustainable residential development
+Eco-certified Units: 96
+Solar Integration Coverage: 80% of rooftops
+Primary Division Owner: SED + UDD (joint)
+
+## 4. Key Metrics / Structured Data
+Energy Efficiency Rating: A+
+Target Operational CO2 Reduction: 18% (aligned with NBD-COMP-005)
+Target Completion: Q1 2027
+
+## 5. Reference Codes
+PRJ-GB-A+96
+SUST-GB-80SOL
+
+## 6. Keywords
+GreenBridge, sustainable housing, eco-certified, solar coverage, energy rating A+
+
+## 7. CANARY
+CANARY: GB-SUSTAIN-704

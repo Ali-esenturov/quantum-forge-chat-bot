@@ -1,0 +1,36 @@
+doc_id: NBD-PRJ-005
+type: PROJECT
+date: 2026-01-19
+
+# Project Lifecycle and Development Phases
+
+## 1. Purpose
+To define the standardized project lifecycle model used across NBD.
+
+## 2. Scope
+Applies to all projects and phases from feasibility to close-out.
+
+## 3. Core Information
+NBD uses five standardized phases:
+1) Feasibility Study
+2) Design & Engineering
+3) Procurement
+4) Construction
+5) Final Inspection & Close-out
+
+Each phase has a phase owner and required deliverables.
+
+## 4. Key Metrics / Structured Data
+Typical Project Duration: 24–36 months
+Minimum Required Phase Gate Reviews: 5
+Standard Reporting Frequency: bi-weekly
+
+## 5. Reference Codes
+PRJ-LC-5PH
+GATE-REV-STD
+
+## 6. Keywords
+project lifecycle, phases, feasibility, design, procurement, construction, close-out
+
+## 7. CANARY
+CANARY: LIFE-CYCLE-705

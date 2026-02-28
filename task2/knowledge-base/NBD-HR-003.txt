@@ -1,0 +1,31 @@
+doc_id: NBD-HR-003
+type: HR
+date: 2026-02-01
+
+# Training and Certification Requirements
+
+## 1. Purpose
+To define mandatory training and certification intervals for employees.
+
+## 2. Scope
+Applies to all employees and site-access contractors (training equivalence required).
+
+## 3. Core Information
+Safety training is mandatory and repeated regularly.
+Engineering licenses must be renewed according to policy.
+
+## 4. Key Metrics / Structured Data
+Mandatory Safety Training: 2 times per year
+Engineering License Renewal: every 3 years
+New Hire Safety Induction: within first 5 working days
+Training Record System: TrainLog (internal)
+
+## 5. Reference Codes
+HR-TRAIN-2X
+LIC-RENEW-3Y
+
+## 6. Keywords
+training requirements, safety training, certification, license renewal, induction
+
+## 7. CANARY
+CANARY: HR-TRAIN-1003

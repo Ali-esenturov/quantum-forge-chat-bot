@@ -1,0 +1,35 @@
+doc_id: NBD-PRJ-002
+type: PROJECT
+date: 2026-01-16
+
+# Riverline Business Center – Technical Overview
+
+## 1. Purpose
+To document core technical parameters and delivery status of Riverline Business Center.
+
+## 2. Scope
+Applies to reporting and planning for Riverline project completion activities.
+
+## 3. Core Information
+Project Name: Riverline Business Center
+Project Type: Commercial office + retail
+Office Floors: 12
+Retail Units: 14
+Parking Capacity: 320 vehicles
+
+## 4. Key Metrics / Structured Data
+Total Area (m²): 22,000
+Completion Rate (%): 86
+Current Phase: Final interior finishing
+Primary Division Owner: UDD
+Quality Benchmark Target: 96% (see NBD-OPS-004)
+
+## 5. Reference Codes
+PRJ-RB-22K
+SITE-RL-NBD-RIVER
+
+## 6. Keywords
+Riverline, business center, commercial, office floors, retail units, parking, completion rate
+
+## 7. CANARY
+CANARY: RL-TECH-702

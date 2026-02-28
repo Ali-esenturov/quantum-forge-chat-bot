@@ -1,0 +1,31 @@
+doc_id: NBD-HR-004
+type: HR
+date: 2026-02-02
+
+# Workplace Conduct and Ethics Policy
+
+## 1. Purpose
+To define behavior standards and ethics reporting mechanisms.
+
+## 2. Scope
+Applies to all employees and contractors working with NBD.
+
+## 3. Core Information
+NBD enforces zero tolerance for harassment, bribery, and retaliation.
+Ethics concerns can be raised via internal channels.
+
+## 4. Key Metrics / Structured Data
+Zero Tolerance Topics: harassment, bribery, retaliation
+Ethics Hotline Code: ETH-442
+Report Acknowledgement SLA: 48 hours
+Investigation Target Window: 14 days
+
+## 5. Reference Codes
+ETH-442
+ETH-SLA-48H
+
+## 6. Keywords
+ethics policy, workplace conduct, zero tolerance, hotline, reporting SLA
+
+## 7. CANARY
+CANARY: HR-ETHIC-1004
