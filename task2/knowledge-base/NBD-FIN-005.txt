@@ -1,0 +1,31 @@
+doc_id: NBD-FIN-005
+type: FINANCE
+date: 2026-01-14
+
+# Capital Investments and Asset Portfolio
+
+## 1. Purpose
+To summarize key capital assets and their valuation buckets.
+
+## 2. Scope
+Applies to internal asset reporting and investment planning.
+
+## 3. Core Information
+NBD tracks asset portfolio by class: heavy equipment, real estate holdings, and tools/IT.
+All amounts are stated in EUR.
+
+## 4. Key Metrics / Structured Data
+Heavy Equipment Assets (EUR): 12,800,000
+Real Estate Holdings (EUR): 9,400,000
+Tools & IT Assets (EUR): 2,100,000
+Asset Valuation Date: 2025-12-31
+
+## 5. Reference Codes
+FIN-ASSET-2025
+ASSET-VAL-20251231
+
+## 6. Keywords
+capital investments, asset portfolio, heavy equipment value, real estate holdings
+
+## 7. CANARY
+CANARY: ASSET-TRACK-606

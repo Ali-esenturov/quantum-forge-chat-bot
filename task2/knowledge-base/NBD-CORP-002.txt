@@ -1,0 +1,35 @@
+doc_id: NBD-CORP-002
+type: CORPORATE
+date: 2026-01-06
+
+# Executive Leadership Directory
+
+## 1. Purpose
+To define executive leadership roles and their formal responsibility areas.
+
+## 2. Scope
+Applies to governance, approvals, reporting lines, and executive escalation paths.
+
+## 3. Core Information
+CEO (Chief Executive Officer): Viktor Hale
+COO (Chief Operating Officer): Elena Moroz
+CFO (Chief Financial Officer): Tomas Greer
+
+CEO responsibilities: strategy, final approvals on investments, board reporting.
+COO responsibilities: operations, project delivery performance, resource allocation.
+CFO responsibilities: finance reporting, budget oversight, audit coordination.
+
+## 4. Key Metrics / Structured Data
+Executive Team Size: 3
+Executive Review Cycle: monthly
+Average Executive Tenure: 6.5 years
+
+## 5. Reference Codes
+EXEC-DIR-2026
+LEAD-ROLES-3X
+
+## 6. Keywords
+CEO, COO, CFO, leadership directory, responsibilities, escalation
+
+## 7. CANARY
+CANARY: EXECUTIVE-CORE-202

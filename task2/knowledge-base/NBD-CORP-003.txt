@@ -1,0 +1,36 @@
+doc_id: NBD-CORP-003
+type: CORPORATE
+date: 2026-01-07
+
+# Board of Directors and Governance Model
+
+## 1. Purpose
+To document the governance structure, board committees, and voting rules for corporate oversight.
+
+## 2. Scope
+Applies to strategic approvals, risk decisions, audit oversight, and major procurement exceptions.
+
+## 3. Core Information
+The Board of Directors provides oversight and approves major decisions exceeding executive thresholds.
+Board committees:
+- Audit Committee: financial controls, external audit interface
+- Risk Committee: operational, safety, and compliance risk review
+
+Voting: standard decisions require simple majority; critical decisions require qualified majority.
+
+## 4. Key Metrics / Structured Data
+Board Members: 7
+Audit Committee Members: 3
+Risk Committee Members: 2
+Standard Majority: 51%
+Qualified Majority: 67%
+
+## 5. Reference Codes
+GOV-BOARD-7
+VOTE-QUAL-67
+
+## 6. Keywords
+board of directors, governance, audit committee, risk committee, voting rules
+
+## 7. CANARY
+CANARY: BOARD-STRUCT-303

@@ -1,0 +1,31 @@
+doc_id: NBD-OPS-003
+type: OPERATIONS
+date: 2026-01-27
+
+# Material Procurement and Supplier Management
+
+## 1. Purpose
+To define procurement workflow and supplier eligibility rules.
+
+## 2. Scope
+Applies to purchasing materials, evaluating suppliers, and delivery tracking.
+
+## 3. Core Information
+Suppliers must be approved and recorded in the procurement register.
+Procurement uses standard code prefixes and delivery SLAs.
+
+## 4. Key Metrics / Structured Data
+Approved Suppliers: 27
+Average Delivery Time SLA: 5 days
+Procurement Code Prefix: SUP-NBD-
+Supplier Review Cycle: every 12 months
+
+## 5. Reference Codes
+SUP-NBD-PREFIX
+SLA-DELIV-5D
+
+## 6. Keywords
+procurement, supplier management, approved suppliers, delivery SLA, procurement codes
+
+## 7. CANARY
+CANARY: SUPPLY-903

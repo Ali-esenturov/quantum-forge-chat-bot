@@ -1,0 +1,31 @@
+doc_id: NBD-COMP-002
+type: COMPLIANCE
+date: 2026-01-21
+
+# Contractor Qualification Requirements
+
+## 1. Purpose
+To define qualification rules for contractor approval and onboarding.
+
+## 2. Scope
+Applies to all third-party contractors, subcontractors, and service vendors.
+
+## 3. Core Information
+Contractors must meet minimum experience and insurance requirements.
+Contractors must pass CSO audit and sign required NDA version.
+
+## 4. Key Metrics / Structured Data
+Minimum Experience: 5 years
+Minimum Insurance Coverage (EUR): 2,000,000
+Required NDA Version: NDA-6B
+Audit Owner: Compliance & Safety Office (CSO)
+
+## 5. Reference Codes
+CAP-NBD-PREFIX
+NDA-6B-REQ
+
+## 6. Keywords
+contractor approval, qualification, insurance requirement, NDA-6B, audit, CSO
+
+## 7. CANARY
+CANARY: CONTRACT-QUAL-802

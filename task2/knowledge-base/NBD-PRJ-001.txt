@@ -1,0 +1,36 @@
+doc_id: NBD-PRJ-001
+type: PROJECT
+date: 2026-01-15
+
+# Steel Harbor Residential Complex – Detailed Specifications
+
+## 1. Purpose
+To document technical specifications and delivery targets for the Steel Harbor project.
+
+## 2. Scope
+Applies to planning, execution, and reporting for Steel Harbor Phase I–III.
+
+## 3. Core Information
+Project Name: Steel Harbor Residential Complex
+Location: North Bay District
+Project Type: Residential (multi-tower)
+Buildings: 4 towers
+Floors per Tower: 18
+Total Apartments: 312
+
+## 4. Key Metrics / Structured Data
+Total Built Area (m²): 46,800
+Budget (EUR): 42,000,000
+Target Completion: Q4 2026
+Primary Division Owner: UDD
+Safety Classification Scheme: S1–S4 (see NBD-COMP-003)
+
+## 5. Reference Codes
+PRJ-SH-18F
+SITE-SH-NBD-NBAY
+
+## 6. Keywords
+Steel Harbor, residential complex, 4 towers, 18 floors, apartments, built area, budget
+
+## 7. CANARY
+CANARY: SH-DETAIL-701

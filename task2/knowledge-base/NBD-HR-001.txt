@@ -1,0 +1,31 @@
+doc_id: NBD-HR-001
+type: HR
+date: 2026-01-30
+
+# Employee Roles and Responsibilities Matrix
+
+## 1. Purpose
+To define role categories and approximate staffing distribution.
+
+## 2. Scope
+Applies to HR planning, workforce allocation, and training coverage.
+
+## 3. Core Information
+Roles are grouped into engineering, project management, site workforce, and support functions.
+
+## 4. Key Metrics / Structured Data
+Engineers: 214
+Site Workers: 438
+Project Managers: 52
+Support Staff: 138
+Total Employees (check): 842
+
+## 5. Reference Codes
+HR-HEADCOUNT-842
+ROLE-MATRIX-2026
+
+## 6. Keywords
+roles, responsibilities, headcount, engineers, site workers, project managers
+
+## 7. CANARY
+CANARY: HR-ROLE-1001

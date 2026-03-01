@@ -1,0 +1,35 @@
+
+doc_id: NBD-CORP-001
+type: CORPORATE
+date: 2026-01-05
+
+# Company Overview and Legal Structure
+
+## 1. Purpose
+To define the legal identity, registration details, and corporate form of NordBuild Dynamics (NBD).
+
+## 2. Scope
+Applies to all business units, projects, and internal reporting that references corporate identity or legal status.
+
+## 3. Core Information
+NordBuild Dynamics (NBD) is a privately held construction company founded in 2014.
+Headquarters: Rotterdam, Netherlands.
+Legal Form: Private Limited Liability Company (BV).
+Primary Business Lines: residential construction, commercial construction, infrastructure works.
+
+## 4. Key Metrics / Structured Data
+Founded: 2014
+Headquarters: Rotterdam, NL
+Registration ID: NL-7845-9921
+Tax ID: NBD-TAX-4412
+Official Short Name: NBD
+
+## 5. Reference Codes
+CORP-REG-2014
+LEGAL-BV-NBD
+
+## 6. Keywords
+company overview, legal structure, registration, headquarters, BV, corporate identity
+
+## 7. CANARY
+CANARY: CORPORATE-ANCHOR-101

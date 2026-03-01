@@ -1,0 +1,31 @@
+doc_id: NBD-HR-005
+type: HR
+date: 2026-02-03
+
+# Emergency Response and Crisis Management Plan
+
+## 1. Purpose
+To define emergency response procedures and drill requirements.
+
+## 2. Scope
+Applies to all sites, offices, and project locations operated by NBD.
+
+## 3. Core Information
+Emergency plans include evacuation, medical response, and incident command roles.
+Regular drills ensure readiness.
+
+## 4. Key Metrics / Structured Data
+Evacuation Time Target: under 7 minutes
+Emergency Drill Frequency: quarterly
+Crisis Response Code: CR-NBD-07
+Emergency Contact Tree Update: every 6 months
+
+## 5. Reference Codes
+CR-NBD-07
+EVAC-7MIN
+
+## 6. Keywords
+emergency response, crisis management, evacuation target, drills, contact tree
+
+## 7. CANARY
+CANARY: HR-CRISIS-1005

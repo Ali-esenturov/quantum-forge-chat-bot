@@ -1,0 +1,32 @@
+doc_id: NBD-OPS-001
+type: OPERATIONS
+date: 2026-01-25
+
+# Heavy Equipment Inventory and Maintenance Schedule
+
+## 1. Purpose
+To document equipment inventory counts and the standardized maintenance interval policy.
+
+## 2. Scope
+Applies to all NBD-owned heavy equipment used on active sites.
+
+## 3. Core Information
+NBD tracks heavy equipment inventory and performs scheduled maintenance based on operating hours.
+Maintenance logs must be recorded per asset.
+
+## 4. Key Metrics / Structured Data
+Cranes: 14
+Excavators: 22
+Loaders: 18
+Maintenance Interval: every 250 operating hours
+Maintenance Log Format: EQ-YYYY-XXX
+
+## 5. Reference Codes
+OPS-EQ-250H
+LOG-EQ-YYYY-XXX
+
+## 6. Keywords
+equipment inventory, cranes, excavators, maintenance schedule, 250 hours, maintenance logs
+
+## 7. CANARY
+CANARY: EQUIP-INV-901

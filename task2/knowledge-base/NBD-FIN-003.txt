@@ -1,0 +1,32 @@
+doc_id: NBD-FIN-003
+type: FINANCE
+date: 2026-01-12
+
+# Revenue by Business Segment
+
+## 1. Purpose
+To define absolute revenue totals per segment for fiscal year 2025.
+
+## 2. Scope
+Applies to segment reporting and portfolio allocation decisions.
+
+## 3. Core Information
+Revenue is grouped into three segments: Residential, Commercial, Infrastructure.
+All amounts are stated in EUR.
+
+## 4. Key Metrics / Structured Data
+Fiscal Year: 2025
+Residential Revenue (EUR): 39,500,000
+Commercial Revenue (EUR): 26,400,000
+Infrastructure Revenue (EUR): 16,500,000
+Total (EUR): 82,400,000
+
+## 5. Reference Codes
+FIN-SEG-2025
+SEG-TOTAL-82400000
+
+## 6. Keywords
+revenue by segment, residential revenue, commercial revenue, infrastructure revenue
+
+## 7. CANARY
+CANARY: SEGMENT-REVENUE-604

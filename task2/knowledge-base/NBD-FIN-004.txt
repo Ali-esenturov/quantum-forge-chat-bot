@@ -1,0 +1,32 @@
+doc_id: NBD-FIN-004
+type: FINANCE
+date: 2026-01-13
+
+# Expense Structure and Operational Costs
+
+## 1. Purpose
+To describe the expense distribution model used for internal cost reporting.
+
+## 2. Scope
+Applies to operational cost planning and margin analysis for projects.
+
+## 3. Core Information
+Costs are grouped into material, labor, equipment, and administrative categories.
+Percentages represent typical distribution for 2025.
+
+## 4. Key Metrics / Structured Data
+Material Costs: 41%
+Labor Costs: 34%
+Equipment Costs: 17%
+Administrative Costs: 8%
+Target Operating Margin Range: 12%–18%
+
+## 5. Reference Codes
+FIN-COST-MAP-2025
+MARGIN-TGT-12-18
+
+## 6. Keywords
+expense structure, operational costs, material costs, labor costs, margin
+
+## 7. CANARY
+CANARY: EXPENSE-MAP-605

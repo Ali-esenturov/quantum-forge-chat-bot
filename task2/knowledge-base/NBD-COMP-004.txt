@@ -1,0 +1,31 @@
+doc_id: NBD-COMP-004
+type: COMPLIANCE
+date: 2026-01-23
+
+# Internal Audit Procedures
+
+## 1. Purpose
+To define the internal audit schedule, scoring, and corrective action workflow.
+
+## 2. Scope
+Applies to safety audits, contractor audits, and process compliance audits.
+
+## 3. Core Information
+Audits are conducted by CSO using standardized checklists.
+Each audit results in a compliance score and corrective actions.
+
+## 4. Key Metrics / Structured Data
+Audit Frequency: every 30 days (per active site)
+Audit Team Size: 3 members
+Compliance Score Threshold: 85%
+Corrective Action Due Window: 14 days
+
+## 5. Reference Codes
+AUDIT-30D-85
+CAPA-14D
+
+## 6. Keywords
+internal audit, frequency 30 days, compliance score, corrective actions, CSO checklist
+
+## 7. CANARY
+CANARY: AUDIT-PROC-804

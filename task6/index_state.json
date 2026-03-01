@@ -1,0 +1,128 @@
+{
+  "files": {
+    "NBD-COMP-001.txt": {
+      "sha256": "4ff60f5ca184d640b8120de681d2b7ff30614cc6aca1eedf13492840eb846bd0",
+      "updated_at": "2026-02-28T19:38:25.838268Z"
+    },
+    "NBD-COMP-002.txt": {
+      "sha256": "c0181a0706170f0eda4bd99291a8e71ef220c435cfad1f9a61af177279d681ad",
+      "updated_at": "2026-02-28T19:38:25.838578Z"
+    },
+    "NBD-COMP-003.txt": {
+      "sha256": "5ec44640eb33d911e504e0886dcb94bce36d526666b84528eae6896b4d04f605",
+      "updated_at": "2026-02-28T19:38:25.838862Z"
+    },
+    "NBD-COMP-004.txt": {
+      "sha256": "2ca661df97b8c78903ebdabd7cf10ef660aec6218afe148d43b4edbb6cc79a2a",
+      "updated_at": "2026-02-28T19:38:25.839129Z"
+    },
+    "NBD-COMP-005.txt": {
+      "sha256": "3b5337c73668294ddcc8cde0347e930b8ed5fa7f3e044a21f27ef939123a9c70",
+      "updated_at": "2026-02-28T19:38:25.839431Z"
+    },
+    "NBD-CORP-001.txt": {
+      "sha256": "e8380cd62ad84ce3c7e2fc4164b1beaeeddadc481197054b3128f281a7d1f4fe",
+      "updated_at": "2026-02-28T19:38:25.839722Z"
+    },
+    "NBD-CORP-002.txt": {
+      "sha256": "0546b48eab53f6eb48386f20c880d968f24b10b08efdbe6a08db0d866c7022f3",
+      "updated_at": "2026-02-28T19:38:25.840005Z"
+    },
+    "NBD-CORP-003.txt": {
+      "sha256": "d2dcabed6054f2cd273d0de8a7b3ab0b9f23bba396c49627eafdb71ce5b04091",
+      "updated_at": "2026-02-28T19:38:25.840290Z"
+    },
+    "NBD-CORP-004.txt": {
+      "sha256": "4d5d6fe8c58a8cfae4d961bee445030ec38b23c3c8d665d2bf520b304f85fb38",
+      "updated_at": "2026-02-28T19:38:25.840602Z"
+    },
+    "NBD-CORP-005.txt": {
+      "sha256": "6d63ed1c0576b22226dbfbfdbd64db5455996a7dbeeb65a44e1c80b7e154b2b5",
+      "updated_at": "2026-02-28T19:38:25.840888Z"
+    },
+    "NBD-FIN-001.txt": {
+      "sha256": "28da7658d40ff6b115ff9ffdc9a5a93d4983c35f8f9ca968e72bb01be1dce411",
+      "updated_at": "2026-02-28T19:38:25.841182Z"
+    },
+    "NBD-FIN-002.txt": {
+      "sha256": "bf6bf0573c8e05d477143289f1f4a9800515b1c8eb5d6136029bc185e357d76d",
+      "updated_at": "2026-02-28T19:38:25.841464Z"
+    },
+    "NBD-FIN-003.txt": {
+      "sha256": "12334c3042d0563b259ed38b050ad822ddbd9c930b8a1533c09c3436f0b4971c",
+      "updated_at": "2026-02-28T19:38:25.841745Z"
+    },
+    "NBD-FIN-004.txt": {
+      "sha256": "f9d938cdf81e631da50c230c5cc181047b55e28a842033c267d7cb1bde8aa8e5",
+      "updated_at": "2026-02-28T19:38:25.842038Z"
+    },
+    "NBD-FIN-005.txt": {
+      "sha256": "5b94511b6f443f58fc9c73f06eabf363da371f9edf3820864cfd75af31cc93c8",
+      "updated_at": "2026-02-28T19:38:25.842312Z"
+    },
+    "NBD-HR-001.txt": {
+      "sha256": "3f51494923e35c20364340cbf1817a4fc28430682461ea3644af18cca90dc60b",
+      "updated_at": "2026-02-28T19:38:25.842615Z"
+    },
+    "NBD-HR-002.txt": {
+      "sha256": "9b4ee37292deca0bd99500cae8ceb42d36c600da958d2c2fc4656985db08f834",
+      "updated_at": "2026-02-28T19:38:25.842917Z"
+    },
+    "NBD-HR-003.txt": {
+      "sha256": "6b28e3f56b5d51f5705f644d6d73a52a506bc3f7d241345cac74e3858df17058",
+      "updated_at": "2026-02-28T19:38:25.843210Z"
+    },
+    "NBD-HR-004.txt": {
+      "sha256": "5f589671076639cee3377725949af88c352c46e21aed413b58c5c636480bb902",
+      "updated_at": "2026-02-28T19:38:25.843495Z"
+    },
+    "NBD-HR-005.txt": {
+      "sha256": "b2621af626dd696ce61f8e80c4c20c0b71e3d7d9bd0295e8cea6d7232d474805",
+      "updated_at": "2026-02-28T19:38:25.843765Z"
+    },
+    "NBD-OPS-001.txt": {
+      "sha256": "5248f05cbfe89430ade31aa88c8f4bc378d4c79397e9d07438de8d500b290e28",
+      "updated_at": "2026-02-28T19:38:25.844047Z"
+    },
+    "NBD-OPS-002.txt": {
+      "sha256": "6247ce4f157503592f84f4781fe850a4dba89b96b7f72e856b1b510145c8ffd9",
+      "updated_at": "2026-02-28T19:38:25.844327Z"
+    },
+    "NBD-OPS-003.txt": {
+      "sha256": "d7b50a74d566249910217a92e2bfc1e85a123ad255cca02a671b742b4b9b7932",
+      "updated_at": "2026-02-28T19:38:25.844632Z"
+    },
+    "NBD-OPS-004.txt": {
+      "sha256": "1e30f36d74e5f0dace2c55ed3799cfe167b813064c3abba34664abd45b8a0d0f",
+      "updated_at": "2026-02-28T19:38:25.845332Z"
+    },
+    "NBD-OPS-005.txt": {
+      "sha256": "c7b41f4bb55b735ce3d8a84ff0063c9a243c4d733077d74ea617465b6197a774",
+      "updated_at": "2026-02-28T19:38:25.845566Z"
+    },
+    "NBD-PRJ-001.txt": {
+      "sha256": "412298b71af6b62d56bfc405824562cf47a75d0bb00e837db44125736d0295b2",
+      "updated_at": "2026-02-28T19:38:25.845788Z"
+    },
+    "NBD-PRJ-002.txt": {
+      "sha256": "6db7d6313cef590c329bca6a6003c047f8cf3e75ea47a68c5eccd4d7a320eede",
+      "updated_at": "2026-02-28T19:38:25.846020Z"
+    },
+    "NBD-PRJ-003.txt": {
+      "sha256": "87740adc14dc205812cc918f3a5103105d4453333029431f9ae8ac09dc92e222",
+      "updated_at": "2026-02-28T19:38:25.846241Z"
+    },
+    "NBD-PRJ-004.txt": {
+      "sha256": "78f18550459747dc7a991c817d1e6e83716566c6e65ad83def375a0e626beb68",
+      "updated_at": "2026-02-28T19:38:25.846426Z"
+    },
+    "NBD-PRJ-005.txt": {
+      "sha256": "5bbd47366308e711f0949066cc8ee2c5eb9be8212c8b66d69b23e58ddd4e4112",
+      "updated_at": "2026-02-28T19:38:25.846617Z"
+    },
+    "malicious-file.txt": {
+      "sha256": "203efab50c4af037e0ca1c04b5ec70f1926f364a69914c3767209b146fbf74f4",
+      "updated_at": "2026-02-28T19:47:27.986152Z"
+    }
+  }
+}

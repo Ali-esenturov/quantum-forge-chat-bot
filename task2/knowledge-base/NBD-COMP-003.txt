@@ -1,0 +1,35 @@
+doc_id: NBD-COMP-003
+type: COMPLIANCE
+date: 2026-01-22
+
+# Incident Classification and Reporting Framework
+
+## 1. Purpose
+To define incident severity levels and reporting timelines.
+
+## 2. Scope
+Applies to safety incidents, equipment failures, and compliance violations.
+
+## 3. Core Information
+Incidents are classified using four levels:
+S1 Minor
+S2 Moderate
+S3 Major
+S4 Critical
+
+All incidents require an initial report and assigned owner.
+
+## 4. Key Metrics / Structured Data
+Reporting Deadline: within 24 hours of discovery
+Mandatory Fields: site, time, category, severity, immediate actions
+Escalation: S3–S4 must be escalated to CSO within 2 hours
+
+## 5. Reference Codes
+INC-SCALE-S1S4
+REPORT-24H
+
+## 6. Keywords
+incident classification, S1 S2 S3 S4, reporting deadline, escalation, CSO
+
+## 7. CANARY
+CANARY: INCIDENT-MAP-803

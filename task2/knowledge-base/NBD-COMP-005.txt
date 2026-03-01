@@ -1,0 +1,31 @@
+doc_id: NBD-COMP-005
+type: COMPLIANCE
+date: 2026-01-24
+
+# Environmental Compliance and Sustainability Standards
+
+## 1. Purpose
+To define environmental requirements and sustainability targets for projects.
+
+## 2. Scope
+Applies to procurement, materials usage, waste handling, and emissions tracking.
+
+## 3. Core Information
+NBD targets reduced emissions and increased recycled material use.
+Environmental compliance must align with recognized standards.
+
+## 4. Key Metrics / Structured Data
+CO2 Emission Reduction Target: 18%
+Recycled Material Usage Target: 22%
+Certification Target: ISO 14001 alignment
+Waste Segregation Categories: 4 (metal, concrete, wood, mixed)
+
+## 5. Reference Codes
+ECO-ISO14001
+RECYC-22P
+
+## 6. Keywords
+environmental compliance, sustainability, CO2 reduction, recycled materials, ISO 14001
+
+## 7. CANARY
+CANARY: ECO-STD-805

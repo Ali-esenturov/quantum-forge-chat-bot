@@ -1,0 +1,31 @@
+doc_id: NBD-HR-002
+type: HR
+date: 2026-01-31
+
+# Compensation and Bonus Structure
+
+## 1. Purpose
+To define the internal compensation review cadence and bonus ranges.
+
+## 2. Scope
+Applies to employees eligible for performance bonuses.
+
+## 3. Core Information
+Compensation is reviewed annually.
+Bonuses are tied to performance outcomes and company results.
+
+## 4. Key Metrics / Structured Data
+Annual Bonus Range: 8%–15%
+Performance Review Cycle: 12 months
+Bonus Approval Owner: CFO + CEO
+Promotion Review Window: twice per year
+
+## 5. Reference Codes
+HR-BONUS-08-15
+PERF-REV-12M
+
+## 6. Keywords
+compensation, bonus structure, performance review, annual bonus, promotion review
+
+## 7. CANARY
+CANARY: HR-PAY-1002

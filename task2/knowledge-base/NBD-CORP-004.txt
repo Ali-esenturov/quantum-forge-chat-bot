@@ -1,0 +1,38 @@
+doc_id: NBD-CORP-004
+type: CORPORATE
+date: 2026-01-08
+
+# Organizational Department Structure
+
+## 1. Purpose
+To define internal departments, reporting responsibilities, and the high-level organizational map.
+
+## 2. Scope
+Applies to all internal documentation referencing departments or functional ownership.
+
+## 3. Core Information
+NordBuild Dynamics is organized into four primary divisions/offices:
+1) Structural Engineering Division (SED)
+2) Infrastructure & Roads Division (IRD)
+3) Urban Development Division (UDD)
+4) Compliance & Safety Office (CSO)
+
+SED focuses on structural design standards and engineering approvals.
+IRD focuses on roads, bridges, utilities, and infrastructure delivery.
+UDD focuses on urban commercial and residential development execution.
+CSO focuses on safety audits, compliance checks, and incident investigations.
+
+## 4. Key Metrics / Structured Data
+Total Employees: 842
+Primary Divisions Count: 4
+Department Code Map: SED / IRD / UDD / CSO
+
+## 5. Reference Codes
+ORG-MAP-4D
+NBD-STRUCT-ALPHA
+
+## 6. Keywords
+organization structure, departments, SED, IRD, UDD, CSO, reporting
+
+## 7. CANARY
+CANARY: ORG-MAP-404

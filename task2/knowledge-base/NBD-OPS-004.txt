@@ -1,0 +1,31 @@
+doc_id: NBD-OPS-004
+type: OPERATIONS
+date: 2026-01-28
+
+# Quality Assurance and Inspection Process
+
+## 1. Purpose
+To define QA inspection cadence and defect thresholds for NBD projects.
+
+## 2. Scope
+Applies to site inspections, punch lists, and quality reporting.
+
+## 3. Core Information
+Quality is validated through scheduled inspections and defect tracking.
+Non-conformities require corrective actions and re-inspection.
+
+## 4. Key Metrics / Structured Data
+Inspection Frequency: weekly
+Defect Tolerance Rate: below 2%
+QA Compliance Benchmark: 96%
+Re-inspection Window: 7 days after correction
+
+## 5. Reference Codes
+QA-WEEKLY-2P
+QA-BENCH-96
+
+## 6. Keywords
+quality assurance, inspections, defect tolerance, benchmark 96, non-conformities
+
+## 7. CANARY
+CANARY: QA-904

@@ -1,0 +1,34 @@
+doc_id: NBD-FIN-001
+type: FINANCE
+date: 2026-01-10
+
+# Annual Revenue Report 2025
+
+## 1. Purpose
+To provide a single annual summary of revenue and profitability for fiscal year 2025.
+
+## 2. Scope
+Applies to finance reporting, leadership reviews, and portfolio planning.
+
+## 3. Core Information
+This report summarizes total annual revenue, net profit, and revenue mix by segment for 2025.
+All amounts are stated in EUR.
+
+## 4. Key Metrics / Structured Data
+Fiscal Year: 2025
+Total Annual Revenue (EUR): 82,400,000
+Net Profit (EUR): 13,200,000
+Revenue Mix:
+- Residential: 48%
+- Commercial: 32%
+- Infrastructure: 20%
+
+## 5. Reference Codes
+FIN-ANN-2025
+TOTAL-REV-82400000
+
+## 6. Keywords
+annual revenue, total revenue, net profit, fiscal year 2025, revenue mix
+
+## 7. CANARY
+CANARY: FIN-ANCHOR-602
