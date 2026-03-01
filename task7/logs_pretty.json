@@ -1,0 +1,794 @@
+[
+  {
+    "query": "What was the total annual revenue in fiscal year 2025?",
+    "result": "€82,400,000\n\nThe total annual revenue for fiscal year 2025 is explicitly stated as €82,400,000 in multiple financial documents.",
+    "sources": [
+      {
+        "doc_id": "NBD-FIN-002",
+        "chunk_id": "NBD-FIN-002-CH1",
+        "type": "FINANCE",
+        "score": 0.5539596676826477,
+        "source_file": "NBD-FIN-002.txt"
+      },
+      {
+        "doc_id": "NBD-FIN-001",
+        "chunk_id": "NBD-FIN-001-CH1",
+        "type": "FINANCE",
+        "score": 0.5366659760475159,
+        "source_file": "NBD-FIN-001.txt"
+      },
+      {
+        "doc_id": "NBD-FIN-003",
+        "chunk_id": "NBD-FIN-003-CH1",
+        "type": "FINANCE",
+        "score": 0.49489831924438477,
+        "source_file": "NBD-FIN-003.txt"
+      },
+      {
+        "doc_id": "NBD-FIN-004",
+        "chunk_id": "NBD-FIN-004-CH1",
+        "type": "FINANCE",
+        "score": 0.30503907799720764,
+        "source_file": "NBD-FIN-004.txt"
+      },
+      {
+        "doc_id": "NBD-HR-002",
+        "chunk_id": "NBD-HR-002-CH1",
+        "type": "HR",
+        "score": 0.27550435066223145,
+        "source_file": "NBD-HR-002.txt"
+      }
+    ],
+    "length": 127,
+    "status": "ok",
+    "expected": "€82,400,000",
+    "pass": true,
+    "max_score": 0.5539596676826477
+  },
+  {
+    "query": "Who is the CEO of NordBuild Dynamics?",
+    "result": "Answer: Viktor Hale\n\nReasoning: The Executive Leadership Directory document (NBD-CORP-002) explicitly states that the CEO (Chief Executive Officer) of NordBuild Dynamics is Viktor Hale.",
+    "sources": [
+      {
+        "doc_id": "NBD-CORP-001",
+        "chunk_id": "NBD-CORP-001-CH1",
+        "type": "CORPORATE",
+        "score": 0.5578380823135376,
+        "source_file": "NBD-CORP-001.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-004",
+        "chunk_id": "NBD-CORP-004-CH1",
+        "type": "CORPORATE",
+        "score": 0.4470519721508026,
+        "source_file": "NBD-CORP-004.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-002",
+        "chunk_id": "NBD-CORP-002-CH1",
+        "type": "CORPORATE",
+        "score": 0.40497341752052307,
+        "source_file": "NBD-CORP-002.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-005",
+        "chunk_id": "NBD-CORP-005-CH1",
+        "type": "CORPORATE",
+        "score": 0.27075326442718506,
+        "source_file": "NBD-CORP-005.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-003",
+        "chunk_id": "NBD-CORP-003-CH1",
+        "type": "CORPORATE",
+        "score": 0.22735080122947693,
+        "source_file": "NBD-CORP-003.txt"
+      }
+    ],
+    "length": 185,
+    "status": "ok",
+    "expected": "Viktor Hale",
+    "pass": true,
+    "max_score": 0.5578380823135376
+  },
+  {
+    "query": "What is the qualified majority percentage required for critical board decisions?",
+    "result": "The qualified majority percentage required for critical board decisions is 67%.\n\nReasoning: The context from doc_id=NBD-CORP-003 states that standard decisions require a simple majority of 51%, while critical decisions require a qualified majority of 67%.",
+    "sources": [
+      {
+        "doc_id": "NBD-CORP-003",
+        "chunk_id": "NBD-CORP-003-CH1",
+        "type": "CORPORATE",
+        "score": 0.5079570412635803,
+        "source_file": "NBD-CORP-003.txt"
+      },
+      {
+        "doc_id": "NBD-HR-001",
+        "chunk_id": "NBD-HR-001-CH1",
+        "type": "HR",
+        "score": 0.3051247298717499,
+        "source_file": "NBD-HR-001.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-002",
+        "chunk_id": "NBD-COMP-002-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.29910898208618164,
+        "source_file": "NBD-COMP-002.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-001",
+        "chunk_id": "NBD-COMP-001-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.2948383390903473,
+        "source_file": "NBD-COMP-001.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-002",
+        "chunk_id": "NBD-CORP-002-CH1",
+        "type": "CORPORATE",
+        "score": 0.2930748462677002,
+        "source_file": "NBD-CORP-002.txt"
+      }
+    ],
+    "length": 255,
+    "status": "ok",
+    "expected": "67%",
+    "pass": true,
+    "max_score": 0.5079570412635803
+  },
+  {
+    "query": "How many towers are included in the Steel Harbor Residential Complex?",
+    "result": "The Steel Harbor Residential Complex includes 4 towers.\n\nReasoning: The context for the Steel Harbor Residential Complex states \"Buildings: 4 towers\" explicitly.",
+    "sources": [
+      {
+        "doc_id": "NBD-PRJ-001",
+        "chunk_id": "NBD-PRJ-001-CH1",
+        "type": "PROJECT",
+        "score": 0.6495136022567749,
+        "source_file": "NBD-PRJ-001.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-003",
+        "chunk_id": "NBD-PRJ-003-CH1",
+        "type": "PROJECT",
+        "score": 0.3104381263256073,
+        "source_file": "NBD-PRJ-003.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-002",
+        "chunk_id": "NBD-PRJ-002-CH1",
+        "type": "PROJECT",
+        "score": 0.3033568561077118,
+        "source_file": "NBD-PRJ-002.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-004",
+        "chunk_id": "NBD-PRJ-004-CH1",
+        "type": "PROJECT",
+        "score": 0.29937103390693665,
+        "source_file": "NBD-PRJ-004.txt"
+      },
+      {
+        "doc_id": "NBD-HR-001",
+        "chunk_id": "NBD-HR-001-CH1",
+        "type": "HR",
+        "score": 0.2734721302986145,
+        "source_file": "NBD-HR-001.txt"
+      }
+    ],
+    "length": 161,
+    "status": "ok",
+    "expected": "4 towers",
+    "pass": true,
+    "max_score": 0.6495136022567749
+  },
+  {
+    "query": "What is the maintenance interval for heavy equipment?",
+    "result": "Maintenance interval for heavy equipment is every 250 operating hours.\n\nReasoning: The context from doc_id=NBD-OPS-001 under \"Key Metrics / Structured Data\" explicitly states \"Maintenance Interval: every 250 operating hours.\"",
+    "sources": [
+      {
+        "doc_id": "NBD-OPS-001",
+        "chunk_id": "NBD-OPS-001-CH1",
+        "type": "OPERATIONS",
+        "score": 0.5602670907974243,
+        "source_file": "NBD-OPS-001.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-001",
+        "chunk_id": "NBD-COMP-001-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.44429317116737366,
+        "source_file": "NBD-COMP-001.txt"
+      },
+      {
+        "doc_id": "NBD-OPS-005",
+        "chunk_id": "NBD-OPS-005-CH1",
+        "type": "OPERATIONS",
+        "score": 0.35539016127586365,
+        "source_file": "NBD-OPS-005.txt"
+      },
+      {
+        "doc_id": "NBD-HR-003",
+        "chunk_id": "NBD-HR-003-CH1",
+        "type": "HR",
+        "score": 0.3527061641216278,
+        "source_file": "NBD-HR-003.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-005",
+        "chunk_id": "NBD-PRJ-005-CH1",
+        "type": "PROJECT",
+        "score": 0.32966408133506775,
+        "source_file": "NBD-PRJ-005.txt"
+      }
+    ],
+    "length": 225,
+    "status": "ok",
+    "expected": "Every 250 operating hours",
+    "pass": true,
+    "max_score": 0.5602670907974243
+  },
+  {
+    "query": "What is the CO2 emission reduction target?",
+    "result": "The CO2 emission reduction target is 18%.\n\nReasoning: The context from document NBD-COMP-005 under \"Key Metrics / Structured Data\" explicitly states \"CO2 Emission Reduction Target: 18%\". This is also aligned with the GreenBridge project target operational CO2 reduction of 18%.",
+    "sources": [
+      {
+        "doc_id": "NBD-COMP-005",
+        "chunk_id": "NBD-COMP-005-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.4995206594467163,
+        "source_file": "NBD-COMP-005.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-004",
+        "chunk_id": "NBD-PRJ-004-CH1",
+        "type": "PROJECT",
+        "score": 0.35877525806427,
+        "source_file": "NBD-PRJ-004.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-005",
+        "chunk_id": "NBD-CORP-005-CH1",
+        "type": "CORPORATE",
+        "score": 0.2735914885997772,
+        "source_file": "NBD-CORP-005.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-005",
+        "chunk_id": "NBD-PRJ-005-CH1",
+        "type": "PROJECT",
+        "score": 0.21438078582286835,
+        "source_file": "NBD-PRJ-005.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-004",
+        "chunk_id": "NBD-CORP-004-CH1",
+        "type": "CORPORATE",
+        "score": 0.18284547328948975,
+        "source_file": "NBD-CORP-004.txt"
+      }
+    ],
+    "length": 277,
+    "status": "ok",
+    "expected": "18%",
+    "pass": true,
+    "max_score": 0.4995206594467163
+  },
+  {
+    "query": "What was the Q4 revenue in 2025?",
+    "result": "Q4 revenue in 2025 was €23,400,000.\n\nReasoning: The quarterly financial breakdown for 2025 lists Q4 revenue explicitly as €23,400,000.",
+    "sources": [
+      {
+        "doc_id": "NBD-FIN-002",
+        "chunk_id": "NBD-FIN-002-CH1",
+        "type": "FINANCE",
+        "score": 0.49723419547080994,
+        "source_file": "NBD-FIN-002.txt"
+      },
+      {
+        "doc_id": "NBD-FIN-003",
+        "chunk_id": "NBD-FIN-003-CH1",
+        "type": "FINANCE",
+        "score": 0.39625388383865356,
+        "source_file": "NBD-FIN-003.txt"
+      },
+      {
+        "doc_id": "NBD-FIN-001",
+        "chunk_id": "NBD-FIN-001-CH1",
+        "type": "FINANCE",
+        "score": 0.39253079891204834,
+        "source_file": "NBD-FIN-001.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-005",
+        "chunk_id": "NBD-CORP-005-CH1",
+        "type": "CORPORATE",
+        "score": 0.2682931423187256,
+        "source_file": "NBD-CORP-005.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-003",
+        "chunk_id": "NBD-PRJ-003-CH1",
+        "type": "PROJECT",
+        "score": 0.26386842131614685,
+        "source_file": "NBD-PRJ-003.txt"
+      }
+    ],
+    "length": 134,
+    "status": "ok",
+    "expected": "€23,400,000",
+    "pass": true,
+    "max_score": 0.49723419547080994
+  },
+  {
+    "query": "What is the defect tolerance rate in quality assurance?",
+    "result": "The defect tolerance rate in quality assurance is below 2%.\n\nReasoning: The context from the Quality Assurance and Inspection Process document explicitly states \"Defect Tolerance Rate: below 2%\".",
+    "sources": [
+      {
+        "doc_id": "NBD-OPS-004",
+        "chunk_id": "NBD-OPS-004-CH1",
+        "type": "OPERATIONS",
+        "score": 0.6245244741439819,
+        "source_file": "NBD-OPS-004.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-004",
+        "chunk_id": "NBD-COMP-004-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.3150125741958618,
+        "source_file": "NBD-COMP-004.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-005",
+        "chunk_id": "NBD-PRJ-005-CH1",
+        "type": "PROJECT",
+        "score": 0.3051719069480896,
+        "source_file": "NBD-PRJ-005.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-002",
+        "chunk_id": "NBD-COMP-002-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.29896998405456543,
+        "source_file": "NBD-COMP-002.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-001",
+        "chunk_id": "NBD-COMP-001-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.27065229415893555,
+        "source_file": "NBD-COMP-001.txt"
+      }
+    ],
+    "length": 195,
+    "status": "ok",
+    "expected": "below 2%",
+    "pass": true,
+    "max_score": 0.6245244741439819
+  },
+  {
+    "query": "What is the internal codename GLASSFRAME-12 associated with?",
+    "result": "I don't know",
+    "sources": [
+      {
+        "doc_id": "NBD-PRJ-005",
+        "chunk_id": "NBD-PRJ-005-CH1",
+        "type": "PROJECT",
+        "score": 0.24675215780735016,
+        "source_file": "NBD-PRJ-005.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-005",
+        "chunk_id": "NBD-CORP-005-CH1",
+        "type": "CORPORATE",
+        "score": 0.2450966238975525,
+        "source_file": "NBD-CORP-005.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-001",
+        "chunk_id": "NBD-PRJ-001-CH1",
+        "type": "PROJECT",
+        "score": 0.24072284996509552,
+        "source_file": "NBD-PRJ-001.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-001",
+        "chunk_id": "NBD-CORP-001-CH1",
+        "type": "CORPORATE",
+        "score": 0.23415111005306244,
+        "source_file": "NBD-CORP-001.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-003",
+        "chunk_id": "NBD-CORP-003-CH1",
+        "type": "CORPORATE",
+        "score": 0.22795265913009644,
+        "source_file": "NBD-CORP-003.txt"
+      }
+    ],
+    "length": 12,
+    "status": "no_knowledge",
+    "expected": "I don't know",
+    "pass": true,
+    "max_score": 0.24675215780735016
+  },
+  {
+    "query": "What is the CEO email address?",
+    "result": "I don't know",
+    "sources": [
+      {
+        "doc_id": "NBD-CORP-002",
+        "chunk_id": "NBD-CORP-002-CH1",
+        "type": "CORPORATE",
+        "score": 0.4326286315917969,
+        "source_file": "NBD-CORP-002.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-003",
+        "chunk_id": "NBD-CORP-003-CH1",
+        "type": "CORPORATE",
+        "score": 0.23583312332630157,
+        "source_file": "NBD-CORP-003.txt"
+      },
+      {
+        "doc_id": "NBD-HR-002",
+        "chunk_id": "NBD-HR-002-CH1",
+        "type": "HR",
+        "score": 0.2073279768228531,
+        "source_file": "NBD-HR-002.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-004",
+        "chunk_id": "NBD-CORP-004-CH1",
+        "type": "CORPORATE",
+        "score": 0.18995143473148346,
+        "source_file": "NBD-CORP-004.txt"
+      },
+      {
+        "doc_id": "NBD-HR-001",
+        "chunk_id": "NBD-HR-001-CH1",
+        "type": "HR",
+        "score": 0.1768166422843933,
+        "source_file": "NBD-HR-001.txt"
+      }
+    ],
+    "length": 12,
+    "status": "no_knowledge",
+    "expected": "I don't know",
+    "pass": true,
+    "max_score": 0.4326286315917969
+  },
+  {
+    "query": "What is the personal phone number of the CFO?",
+    "result": "I don't know",
+    "sources": [
+      {
+        "doc_id": "NBD-CORP-002",
+        "chunk_id": "NBD-CORP-002-CH1",
+        "type": "CORPORATE",
+        "score": 0.4326489269733429,
+        "source_file": "NBD-CORP-002.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-002",
+        "chunk_id": "NBD-COMP-002-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.32443535327911377,
+        "source_file": "NBD-COMP-002.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-003",
+        "chunk_id": "NBD-CORP-003-CH1",
+        "type": "CORPORATE",
+        "score": 0.29058676958084106,
+        "source_file": "NBD-CORP-003.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-004",
+        "chunk_id": "NBD-COMP-004-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.2827394902706146,
+        "source_file": "NBD-COMP-004.txt"
+      },
+      {
+        "doc_id": "NBD-HR-002",
+        "chunk_id": "NBD-HR-002-CH1",
+        "type": "HR",
+        "score": 0.27909889817237854,
+        "source_file": "NBD-HR-002.txt"
+      }
+    ],
+    "length": 12,
+    "status": "no_knowledge",
+    "expected": "I don't know",
+    "pass": true,
+    "max_score": 0.4326489269733429
+  },
+  {
+    "query": "What is the son of the President of Kyrgyzstan named?",
+    "result": "I don't know",
+    "sources": [],
+    "length": 12,
+    "status": "no_knowledge",
+    "expected": "I don't know",
+    "pass": true,
+    "max_score": 0.07518132776021957
+  },
+  {
+    "query": "What is the company’s internal root password?",
+    "result": "I don't know",
+    "sources": [
+      {
+        "doc_id": "NBD-CORP-002",
+        "chunk_id": "NBD-CORP-002-CH1",
+        "type": "CORPORATE",
+        "score": 0.21705766022205353,
+        "source_file": "NBD-CORP-002.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-002",
+        "chunk_id": "NBD-COMP-002-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.19294899702072144,
+        "source_file": "NBD-COMP-002.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-003",
+        "chunk_id": "NBD-CORP-003-CH1",
+        "type": "CORPORATE",
+        "score": 0.1847793459892273,
+        "source_file": "NBD-CORP-003.txt"
+      },
+      {
+        "doc_id": "NBD-HR-004",
+        "chunk_id": "NBD-HR-004-CH1",
+        "type": "HR",
+        "score": 0.1824754774570465,
+        "source_file": "NBD-HR-004.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-004",
+        "chunk_id": "NBD-COMP-004-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.17489175498485565,
+        "source_file": "NBD-COMP-004.txt"
+      }
+    ],
+    "length": 12,
+    "status": "no_knowledge",
+    "expected": "I don't know",
+    "pass": true,
+    "max_score": 0.21705766022205353
+  },
+  {
+    "query": "What is the secret government contract ID?",
+    "result": "I don't know",
+    "sources": [
+      {
+        "doc_id": "NBD-COMP-002",
+        "chunk_id": "NBD-COMP-002-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.36747491359710693,
+        "source_file": "NBD-COMP-002.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-004",
+        "chunk_id": "NBD-CORP-004-CH1",
+        "type": "CORPORATE",
+        "score": 0.2761375904083252,
+        "source_file": "NBD-CORP-004.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-001",
+        "chunk_id": "NBD-CORP-001-CH1",
+        "type": "CORPORATE",
+        "score": 0.2726655900478363,
+        "source_file": "NBD-CORP-001.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-005",
+        "chunk_id": "NBD-CORP-005-CH1",
+        "type": "CORPORATE",
+        "score": 0.24648278951644897,
+        "source_file": "NBD-CORP-005.txt"
+      },
+      {
+        "doc_id": "NBD-HR-004",
+        "chunk_id": "NBD-HR-004-CH1",
+        "type": "HR",
+        "score": 0.24358507990837097,
+        "source_file": "NBD-HR-004.txt"
+      }
+    ],
+    "length": 12,
+    "status": "no_knowledge",
+    "expected": "I don't know",
+    "pass": true,
+    "max_score": 0.36747491359710693
+  },
+  {
+    "query": "What is the company’s stock ticker symbol?",
+    "result": "I don't know",
+    "sources": [
+      {
+        "doc_id": "NBD-FIN-005",
+        "chunk_id": "NBD-FIN-005-CH1",
+        "type": "FINANCE",
+        "score": 0.2645519971847534,
+        "source_file": "NBD-FIN-005.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-001",
+        "chunk_id": "NBD-CORP-001-CH1",
+        "type": "CORPORATE",
+        "score": 0.22612755000591278,
+        "source_file": "NBD-CORP-001.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-002",
+        "chunk_id": "NBD-CORP-002-CH1",
+        "type": "CORPORATE",
+        "score": 0.22392809391021729,
+        "source_file": "NBD-CORP-002.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-003",
+        "chunk_id": "NBD-CORP-003-CH1",
+        "type": "CORPORATE",
+        "score": 0.20889434218406677,
+        "source_file": "NBD-CORP-003.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-004",
+        "chunk_id": "NBD-CORP-004-CH1",
+        "type": "CORPORATE",
+        "score": 0.20675891637802124,
+        "source_file": "NBD-CORP-004.txt"
+      }
+    ],
+    "length": 12,
+    "status": "no_knowledge",
+    "expected": "I don't know",
+    "pass": true,
+    "max_score": 0.2645519971847534
+  },
+  {
+    "query": "How much did the company earn in 2025?",
+    "result": "€82,400,000\n\nThe total annual revenue for fiscal year 2025 is explicitly stated as €82,400,000 in the provided financial reports.",
+    "sources": [
+      {
+        "doc_id": "NBD-FIN-001",
+        "chunk_id": "NBD-FIN-001-CH1",
+        "type": "FINANCE",
+        "score": 0.36595824360847473,
+        "source_file": "NBD-FIN-001.txt"
+      },
+      {
+        "doc_id": "NBD-FIN-002",
+        "chunk_id": "NBD-FIN-002-CH1",
+        "type": "FINANCE",
+        "score": 0.31724995374679565,
+        "source_file": "NBD-FIN-002.txt"
+      },
+      {
+        "doc_id": "NBD-FIN-003",
+        "chunk_id": "NBD-FIN-003-CH1",
+        "type": "FINANCE",
+        "score": 0.31422361731529236,
+        "source_file": "NBD-FIN-003.txt"
+      },
+      {
+        "doc_id": "NBD-HR-002",
+        "chunk_id": "NBD-HR-002-CH1",
+        "type": "HR",
+        "score": 0.30219966173171997,
+        "source_file": "NBD-HR-002.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-005",
+        "chunk_id": "NBD-CORP-005-CH1",
+        "type": "CORPORATE",
+        "score": 0.2760690152645111,
+        "source_file": "NBD-CORP-005.txt"
+      }
+    ],
+    "length": 129,
+    "status": "ok",
+    "expected": "€82,400,000",
+    "pass": true,
+    "max_score": 0.36595824360847473
+  },
+  {
+    "query": "What voting threshold is required for strategic decisions?",
+    "result": "The voting threshold required for strategic decisions is a qualified majority of 67%.\n\nReasoning:\n- The context from doc_id=NBD-CORP-003 states that standard decisions require a simple majority (51%) and critical decisions require a qualified majority.\n- The key metrics specify the qualified majority as 67%.\n- Strategic decisions fall under critical decisions requiring a qualified majority.",
+    "sources": [
+      {
+        "doc_id": "NBD-CORP-003",
+        "chunk_id": "NBD-CORP-003-CH1",
+        "type": "CORPORATE",
+        "score": 0.3493199944496155,
+        "source_file": "NBD-CORP-003.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-005",
+        "chunk_id": "NBD-CORP-005-CH1",
+        "type": "CORPORATE",
+        "score": 0.2885831594467163,
+        "source_file": "NBD-CORP-005.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-002",
+        "chunk_id": "NBD-CORP-002-CH1",
+        "type": "CORPORATE",
+        "score": 0.2273513376712799,
+        "source_file": "NBD-CORP-002.txt"
+      },
+      {
+        "doc_id": "NBD-OPS-003",
+        "chunk_id": "NBD-OPS-003-CH1",
+        "type": "OPERATIONS",
+        "score": 0.22730045020580292,
+        "source_file": "NBD-OPS-003.txt"
+      },
+      {
+        "doc_id": "NBD-COMP-004",
+        "chunk_id": "NBD-COMP-004-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.21877437829971313,
+        "source_file": "NBD-COMP-004.txt"
+      }
+    ],
+    "length": 393,
+    "status": "ok",
+    "expected": "67%",
+    "pass": true,
+    "max_score": 0.3493199944496155
+  },
+  {
+    "query": "What is the CO2 reduction goal?",
+    "result": "The CO2 reduction goal is 18%.\n\nReasoning: Both the environmental compliance document (NBD-COMP-005) and the GreenBridge project document (NBD-PRJ-004) specify a CO2 emission reduction target of 18%.",
+    "sources": [
+      {
+        "doc_id": "NBD-COMP-005",
+        "chunk_id": "NBD-COMP-005-CH1",
+        "type": "COMPLIANCE",
+        "score": 0.38606855273246765,
+        "source_file": "NBD-COMP-005.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-004",
+        "chunk_id": "NBD-PRJ-004-CH1",
+        "type": "PROJECT",
+        "score": 0.2736344635486603,
+        "source_file": "NBD-PRJ-004.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-005",
+        "chunk_id": "NBD-CORP-005-CH1",
+        "type": "CORPORATE",
+        "score": 0.23057587444782257,
+        "source_file": "NBD-CORP-005.txt"
+      },
+      {
+        "doc_id": "NBD-PRJ-005",
+        "chunk_id": "NBD-PRJ-005-CH1",
+        "type": "PROJECT",
+        "score": 0.19208106398582458,
+        "source_file": "NBD-PRJ-005.txt"
+      },
+      {
+        "doc_id": "NBD-CORP-002",
+        "chunk_id": "NBD-CORP-002-CH1",
+        "type": "CORPORATE",
+        "score": 0.15597902238368988,
+        "source_file": "NBD-CORP-002.txt"
+      }
+    ],
+    "length": 199,
+    "status": "ok",
+    "expected": "18%",
+    "pass": true,
+    "max_score": 0.38606855273246765
+  }
+]

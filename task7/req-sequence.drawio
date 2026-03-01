@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="RAG Sequence">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Actor headers -->
+        <mxCell id="u" value="User" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="api" value="FastAPI /ask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="faiss" value="FAISS Index" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="llm" value="LLM (OpenAI)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="40" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="eval" value="evaluate.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="40" width="160" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Lifelines (dashed vertical lines) -->
+        <mxCell id="u_line" value="" style="endArrow=none;dashed=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="100" as="sourcePoint"/>
+            <mxPoint x="150" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="api_line" value="" style="endArrow=none;dashed=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="100" as="sourcePoint"/>
+            <mxPoint x="420" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="faiss_line" value="" style="endArrow=none;dashed=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="100" as="sourcePoint"/>
+            <mxPoint x="700" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="llm_line" value="" style="endArrow=none;dashed=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="100" as="sourcePoint"/>
+            <mxPoint x="980" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eval_line" value="" style="endArrow=none;dashed=1;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="100" as="sourcePoint"/>
+            <mxPoint x="1260" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Messages: Request handling -->
+        <mxCell id="m1" value="1) POST /ask (question)" style="endArrow=block;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="140" as="sourcePoint"/>
+            <mxPoint x="420" y="140" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m2" value="2) Search top-K vectors" style="endArrow=block;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint"/>
+            <mxPoint x="700" y="190" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m3" value="3) Return chunks + scores" style="endArrow=block;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="240" as="sourcePoint"/>
+            <mxPoint x="420" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m4" value="4) If max_score &lt; 0.2 → return: I don't know (no LLM call)" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="290" as="sourcePoint"/>
+            <mxPoint x="420" y="290" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m5" value="5) Else: send question + context" style="endArrow=block;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint"/>
+            <mxPoint x="980" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m6" value="6) Generated answer" style="endArrow=block;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="390" as="sourcePoint"/>
+            <mxPoint x="420" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m7" value="7) Return answer + sources" style="endArrow=block;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint"/>
+            <mxPoint x="150" y="440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Evaluation process -->
+        <mxCell id="m8" value="8) Load golden_questions.txt" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="520" as="sourcePoint"/>
+            <mxPoint x="1260" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m9" value="9) For each golden question → POST /ask" style="endArrow=block;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="570" as="sourcePoint"/>
+            <mxPoint x="420" y="570" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m10" value="10) Receive answer + sources" style="endArrow=block;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="620" as="sourcePoint"/>
+            <mxPoint x="1260" y="620" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m11" value="11) Compare with expected + write logs.jsonl/logs.csv" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="670" as="sourcePoint"/>
+            <mxPoint x="1260" y="670" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Failure points (notes) -->
+        <mxCell id="f1" value="FAIL: empty index (ntotal=0) → retrieval returns no ids" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffe6e6;" vertex="1" parent="1">
+          <mxGeometry x="560" y="790" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="f2" value="FAIL: invalid chunk metadata / missing source_file → context build error" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffe6e6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="790" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="f3" value="FAIL: LLM error / quota exceeded → return safe fallback" style="shape=note;whiteSpace=wrap;html=1;fillColor=#ffe6e6;" vertex="1" parent="1">
+          <mxGeometry x="860" y="790" width="240" height="60" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
